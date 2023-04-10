@@ -1,0 +1,45 @@
+/* Styles for header and navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+  
+  /* Styles for main content sections */
+  section {
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: #eee;
+  }
+  section h2 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Styles for form */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  /* Styles for footer */
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
